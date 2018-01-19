@@ -36,7 +36,7 @@ class App extends Component {
         <button onClick={this.submitFood}>Submit</button>
 
         <pre>
-          Monday's Breakfast: {this.state.calendar && this.state.calendar.monday.breakfast}
+          Mondays Breakfast: {this.state.calendar && this.state.calendar.monday.breakfast}
         </pre>
       </div>
     )

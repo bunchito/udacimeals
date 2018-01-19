@@ -4,7 +4,6 @@ import './index.css';
 import App from './components/App';
 import registerServiceWorker from './registerServiceWorker';
 import { createStore, applyMiddleware, compose } from 'redux'
-import { createStore } from 'redux'
 import reducer from './reducers'
 
 const store = createStore(
